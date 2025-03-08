@@ -1325,6 +1325,36 @@ h6 { font-size: 16px; }
 .orido_tm_service .service_list ul li.mleave .right .svg path{
 	fill: var(--main-color);
 }
+
+.services_Cats{
+	list-style: none; 
+    padding: 0;
+    margin: 20px 0;
+}
+.services_Cats li{
+	position: relative;
+    padding-left: 30px; 
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.services_Cats li::before {
+    content: "🔹"; 
+    position: absolute;
+    left: 0;
+    top: 3px; 
+    font-size: 18px;
+    color: #3A78C7; 
+}
+
+
+.services_Cats li:hover {
+    color: #18436d;
+    transition: color 0.3s ease-in-out;
+}
 .orido_tm_modalbox{
 	position: fixed;
 	top: 0px;
