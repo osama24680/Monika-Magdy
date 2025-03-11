@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
         //   sub: ["SEO optimized", "Easy navigation", "Dark mode support"],
         // },
       ],
-      image: "img/translation.jpg",
+      image:
+        "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/1-blood_analysis.jpg",
     },
     project2: {
       title: "Mockup Phone",
@@ -40,7 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
           ],
         },
       ],
-      image: "img/translation.jpg",
+      image:
+        "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/2-Articles%20.jpg",
     },
     project3: {
       title: "Brain Translation",
@@ -49,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
           main: "Translation of MRI, MRA, MRV of the brain",
         },
       ],
-      image: "img/translation.jpg",
+      image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/3-Brain.jpg",
     },
     project4: {
       title: "Multi slice non contrast CT",
@@ -61,7 +63,7 @@ the axial and coronal
 planes.`,
         },
       ],
-      image: "img/translation.jpg",
+      image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/4-CT.jpg",
     },
     project5: {
       title: "DUPLEX & COLOR ULTRASOUND",
@@ -72,7 +74,7 @@ DUPLEX & COLOR ULTRASOUND of the deep venous system of both
 lower limbs.`,
         },
       ],
-      image: "img/translation.jpg",
+      image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/5-Duplex.jpg",
     },
     project6: {
       title: "Dental student",
@@ -90,7 +92,7 @@ lower limbs.`,
           ],
         },
       ],
-      image: "img/translation.jpg",
+      image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/6-dental.jpg",
     },
   };
 
