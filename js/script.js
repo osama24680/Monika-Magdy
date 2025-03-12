@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/2-Articles%20.jpg",
     },
     project3: {
-      title: "Brain Translation",
+      title: "Scans Translation",
       description: [
         {
           main: "Translation of MRI, MRA, MRV of the brain",
@@ -77,7 +77,7 @@ lower limbs.`,
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/5-Duplex.jpg",
     },
     project6: {
-      title: "Dental student",
+      title: "Projects for dental students",
       description: [
         {
           main: "Projects for dental student:",
