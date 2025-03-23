@@ -14,14 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
             "Complete blood picture",
           ],
         },
-        // {
-        //   main: "Fully responsive and mobile-friendly",
-        //   sub: ["Optimized for all screen sizes", "Fast loading speed"],
-        // },
-        // {
-        //   main: "Performance & accessibility",
-        //   sub: ["SEO optimized", "Easy navigation", "Dark mode support"],
-        // },
+      ],
+      files: [
+        {
+          name: "Scan Analysis 1 - PDF",
+          url: "../img/analysis.pdf",
+        },
+        {
+          name: "Scan Analysis 2 - PDF",
+          url: "../img/Scan2.pdf",
+        },
       ],
       image:
         "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/1-blood_analysis.jpg",
@@ -41,6 +43,16 @@ document.addEventListener("DOMContentLoaded", () => {
           ],
         },
       ],
+      files: [
+        {
+          name: "ARDS - PDF",
+          url: "../img/ARDS.pdf",
+        },
+        {
+          name: "Flagyl - PDF",
+          url: "../img/Flagyl.pdf",
+        },
+      ],
       image:
         "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/2-Articles%20.jpg",
     },
@@ -49,6 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
       description: [
         {
           main: "Translation of MRI, MRA, MRV of the brain",
+        },
+      ],
+      files: [
+        {
+          name: "Analysis - PDF",
+          url: "../img/Scan1.pdf",
         },
       ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/3-Brain.jpg",
@@ -130,6 +148,31 @@ lower limbs.`,
     )
     .join("")}
 </div>`;
+
+    
+if (project.files) {
+  const fileLinks = `
+    <div class="modal-files">
+      <h4 style="margin-top: 20px;">View Translated Files:</h4>
+      <div class="file-list">
+        ${project.files
+          .map(
+            (file) => `
+            <div class="file-item">
+              <span>${file.name}</span>
+              <div>
+                <a href="${file.url}" target="_blank" class="view-btn">View</a>
+                <a href="${file.url}" download class="download-btn">Download</a>
+              </div>
+            </div>
+          `
+          )
+          .join("")}
+      </div>
+    </div>`;
+  modalDescription.innerHTML += fileLinks;
+}
+
 
     modal.style.display = "flex"; // Show modal
   }
