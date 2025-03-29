@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       files: [
         {
-          name: "Scan Analysis 1 - PDF",
-          url: "../img/analysis.pdf",
-        },
-        {
           name: "Scan Analysis 2 - PDF",
           url: "../img/Scan2.pdf",
+        },
+        {
+          name: "Scan Analysis 1 - PDF",
+          url: "../img/analysis.pdf",
         },
       ],
       image:
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/2-Articles%20.jpg",
     },
     project3: {
-      title: "Scans Translation",
+      title: "MRI, MRA and MRV of the brain",
       description: [
         {
           main: "Translation of MRI, MRA, MRV of the brain",
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
       files: [
         {
           name: "Analysis - PDF",
-          url: "../img/Scan1.pdf",
+          url: "../img/analysis.pdf",
         },
       ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/3-Brain.jpg",
@@ -97,15 +97,27 @@ the axial and coronal
 planes.`,
         },
       ],
+      files: [
+        {
+          name: "DUPLEX & COLOR DOPPLER ULTRASOUND - PDF",
+          url: "../img/DUPLEX & COLOR DOPPLER ULTRASOUND.pdf",
+        },
+      ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/4-CT.jpg",
     },
     project5: {
-      title: "DUPLEX & COLOR ULTRASOUND",
+      title: "Duplex & Doppler Ultrasound",
       description: [
         {
           main: `Translation of
 DUPLEX & COLOR ULTRASOUND of the deep venous system of both
 lower limbs.`,
+        },
+      ],
+      files: [
+        {
+          name: "Duplex & Color Doppler Ultrasound - PDF",
+          url: "../img/DUPLEX & COLOR DOPPLER ULTRASOUND.pdf",
         },
       ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/5-Duplex.jpg",
