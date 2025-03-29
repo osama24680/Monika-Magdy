@@ -99,8 +99,8 @@ planes.`,
       ],
       files: [
         {
-          name: "DUPLEX & COLOR DOPPLER ULTRASOUND - PDF",
-          url: "../img/DUPLEX & COLOR DOPPLER ULTRASOUND.pdf",
+          name: "Multislice non contrast CT scan of the orbits - PDF",
+          url: "../img/Multislice non contrast CT scan of the orbits.pdf",
         },
       ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/4-CT.jpg",
