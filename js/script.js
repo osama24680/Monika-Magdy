@@ -138,6 +138,28 @@ lower limbs.`,
           ],
         },
       ],
+      files: [
+        {
+          name: "CAD-CAM Technology in Dentistry - PDF",
+          url: "../img/CAD-CAM Technology in Dentistry.pdf",
+        },
+        {
+          name: "Nonsteroidal Anti-Inflammatory Drugs - PDF",
+          url: "../img/Nonsteroidal Anti-Inflammatory Drugs.pdf",
+        },
+        {
+          name: "AMALAGAM AND COPPOSITE - PDF",
+          url: "../img/AMALAGAM AND COPPOSITE.pdf",
+        },
+        {
+          name: "Gap analysis with action - PDF",
+          url: "../img/Gap analysis with action.pdf",
+        },
+        {
+          name: "Causes of Teeth Discoloration - PDF",
+          url: "../img/Causes of Teeth Discoloration.pdf",
+        },
+      ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/6-dental.jpg",
     },
   };
