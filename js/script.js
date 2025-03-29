@@ -163,18 +163,12 @@ lower limbs.`,
           name: "Principle of Smile Design - PDF",
           url: "../img/Principle of Smile Design.pdf",
         },
-        {
-          name: "Principle of Smile Design - PDF",
-          url: "../img/Principle of Smile Design.pdf",
-        },
+     
         {
           name: "Antihypertensives - PDF",
           url: "../img/Antihypertensives.pdf",
         },
-        {
-          name: "Nonsteroidal Anti-Inflammatory Drugs - PDF",
-          url: "../img/Nonsteroidal Anti-Inflammatory Drugs.pdf",
-        },
+     
       ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/6-dental.jpg",
     },
