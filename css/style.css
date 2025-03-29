@@ -1930,6 +1930,7 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 20px;
+ 
 }
 
 /* Modal Content */
@@ -1939,10 +1940,12 @@ h3 {
   border-radius: 10px;
   text-align: center;
   max-width: 650px;
-  /* height: 500px; */
+  height: 95%;
   width: 100%;
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+   overflow: auto;
+  
 }
 
 #modalTitle {

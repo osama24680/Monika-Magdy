@@ -52,6 +52,22 @@ document.addEventListener("DOMContentLoaded", () => {
           name: "Flagyl - PDF",
           url: "../img/Flagyl.pdf",
         },
+        {
+          name: "The Symptoms and the Complications of Flu caused by H1N1 - PDF",
+          url: "../img/The Symptoms and the Complications of Flu caused by H1N1.pdf",
+        },
+        {
+          name: "Mechanisms of Drug Resistance in Cancer - PDF",
+          url: "../img/Mechanisms of Drug Resistance in Cancer.pdf",
+        },
+        {
+          name: "Epigenetic Mechanisms in Cancer Progression and Therapy Resistance - PDF",
+          url: "../img/Epigenetic Mechanisms in Cancer Progression and Therapy Resistance.pdf",
+        },
+        {
+          name: "Advancements in Biomedical Devices: Key Components and Functions - PDF",
+          url: "../img/Advancements in Biomedical Devices Key Components and Functions.pdf",
+        },
       ],
       image:
         "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/2-Articles%20.jpg",
