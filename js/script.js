@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/3-Brain.jpg",
     },
     project4: {
-      title: "Multi slice non contrast CT",
+      title: "Multi Slice Non Contrast CT",
       description: [
         {
           main: `Translation of
@@ -123,10 +123,10 @@ lower limbs.`,
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/5-Duplex.jpg",
     },
     project6: {
-      title: "Projects for dental students",
+      title: "Projects For Dental Students",
       description: [
         {
-          main: "Projects for dental student:",
+          main: "Projects For Dental Student:",
           sub: [
             "Causes of teeth coloration Brochure by Microsoft word.",
             "Principle of smile design Brochure by Microsoft word.",
