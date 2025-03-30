@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       files: [
         {
-          name: "Scan Analysis 2 - PDF",
+          name: "Blood Analysis 1 - PDF",
           url: "../img/Scan2.pdf",
         },
         {
-          name: "Scan Analysis 1 - PDF",
+          name: "Blood Analysis 2 - PDF",
           url: "../img/analysis.pdf",
         },
       ],
@@ -163,12 +163,11 @@ lower limbs.`,
           name: "Principle of Smile Design - PDF",
           url: "../img/Principle of Smile Design.pdf",
         },
-     
+
         {
           name: "Antihypertensives - PDF",
           url: "../img/Antihypertensives.pdf",
         },
-     
       ],
       image: "https://pub-b654b752a58b4406b9bea610769ffee4.r2.dev/6-dental.jpg",
     },
