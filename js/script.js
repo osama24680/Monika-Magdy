@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           name: "Blood Analysis 2 - PDF",
-          url: "../img/analysis.pdf",
+          url: "../img/analysis2.pdf",
         },
       ],
       image:
